@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+body{
+
+  background-color: #000000;
+
+}
+
 
 @layer base {
   :root {

@@ -1,3 +1,4 @@
+import HeadingSection from '@/components/layout/HeadingSection'
 import Header from '@/components/shared/Header'
 
 import React from 'react'
@@ -9,6 +10,8 @@ const page = () => {
       <div className='flex gap-20 justify-center flex-col'>
 
         <Header />
+
+        <HeadingSection/>
 
       </div>
        

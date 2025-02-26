@@ -1,5 +1,6 @@
 import HeadingSection from '@/components/layout/HeadingSection'
 import MainSection from '@/components/layout/MainSection'
+import MidSection from '@/components/layout/MidSection'
 import Team from '@/components/layout/Team'
 import Header from '@/components/shared/Header'
 
@@ -18,6 +19,8 @@ const page = () => {
         <MainSection/>
 
         <Team/>
+
+        <MidSection/>
 
       </div>
        

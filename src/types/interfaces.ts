@@ -27,3 +27,18 @@ export interface TeamTabProps{
   icon: string,
 
 }
+
+
+export interface FeaturesProps{
+
+  heading: string,
+  content: string,
+
+}
+export interface FeatureTabsProps{
+
+  icon: React.ComponentType,
+  heading: string,
+  content: string
+
+}

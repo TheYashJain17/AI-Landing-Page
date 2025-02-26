@@ -1,3 +1,4 @@
+import Features from '@/components/layout/Features'
 import HeadingSection from '@/components/layout/HeadingSection'
 import MainSection from '@/components/layout/MainSection'
 import MidSection from '@/components/layout/MidSection'
@@ -21,6 +22,7 @@ const page = () => {
         <Team/>
 
         <MidSection/>
+        <Features/>
 
       </div>
        

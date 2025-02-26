@@ -21,3 +21,9 @@ export interface NavLinksProps{
 
 }
 
+
+export interface TeamTabProps{
+
+  icon: string,
+
+}

@@ -1,5 +1,6 @@
 import HeadingSection from '@/components/layout/HeadingSection'
 import MainSection from '@/components/layout/MainSection'
+import Team from '@/components/layout/Team'
 import Header from '@/components/shared/Header'
 
 import React from 'react'
@@ -15,6 +16,8 @@ const page = () => {
         <HeadingSection/>
 
         <MainSection/>
+
+        <Team/>
 
       </div>
        

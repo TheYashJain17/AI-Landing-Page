@@ -1,3 +1,4 @@
+import ClientSection from '@/components/layout/ClientSection'
 import Features from '@/components/layout/Features'
 import HeadingSection from '@/components/layout/HeadingSection'
 import MainSection from '@/components/layout/MainSection'
@@ -22,7 +23,10 @@ const page = () => {
         <Team/>
 
         <MidSection/>
+
         <Features/>
+
+        <ClientSection/>
 
       </div>
        

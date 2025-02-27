@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Input } from '../ui/input'
 import { Button } from '../ui/button'
-
+import sendEmail from '@/utilities/sendEmail'
 
 const EmailSection = (): React.JSX.Element => {
 
@@ -41,7 +41,14 @@ const EmailSection = (): React.JSX.Element => {
 
                     </div>
 
-                    <Button>Join Waitlist</Button>
+                    <Button onClick={() => {
+                        sendEmail(userMail);
+                        setTimeout(() => {
+                            setUserMail("");
+                        }, 1000)
+                            
+
+                    }}>Join Waitlist</Button>
 
 
                 </div>

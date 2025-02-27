@@ -1,4 +1,5 @@
 import ClientSection from '@/components/layout/ClientSection'
+import EmailSection from '@/components/layout/EmailSection'
 import Features from '@/components/layout/Features'
 import HeadingSection from '@/components/layout/HeadingSection'
 import MainSection from '@/components/layout/MainSection'
@@ -30,6 +31,8 @@ const page = () => {
         <ClientSection/>
 
         <PricingSection/>
+
+        <EmailSection/>
 
       </div>
        

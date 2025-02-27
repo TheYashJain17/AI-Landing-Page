@@ -42,3 +42,19 @@ export interface FeatureTabsProps{
   content: string
 
 }
+
+
+export interface PricingDetails{
+
+  name: string,
+  price: number,
+  benefits: String[],
+
+}
+
+export interface PriceDetailsProps{
+
+  PricingDetails: PricingDetails,
+  index: number,
+
+}

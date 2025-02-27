@@ -3,6 +3,7 @@ import Features from '@/components/layout/Features'
 import HeadingSection from '@/components/layout/HeadingSection'
 import MainSection from '@/components/layout/MainSection'
 import MidSection from '@/components/layout/MidSection'
+import PricingSection from '@/components/layout/PricingSection'
 import Team from '@/components/layout/Team'
 import Header from '@/components/shared/Header'
 
@@ -27,6 +28,8 @@ const page = () => {
         <Features/>
 
         <ClientSection/>
+
+        <PricingSection/>
 
       </div>
        

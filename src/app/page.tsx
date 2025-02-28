@@ -1,6 +1,7 @@
 import ClientSection from '@/components/layout/ClientSection'
 import EmailSection from '@/components/layout/EmailSection'
 import Features from '@/components/layout/Features'
+import Footer from '@/components/layout/Footer'
 import HeadingSection from '@/components/layout/HeadingSection'
 import MainSection from '@/components/layout/MainSection'
 import MidSection from '@/components/layout/MidSection'
@@ -33,6 +34,8 @@ const page = () => {
         <PricingSection/>
 
         <EmailSection/>
+
+        <Footer/>
 
       </div>
        

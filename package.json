@@ -16,6 +16,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.7",
     "init": "^0.1.2",
+    "lenis": "^1.1.22",
     "lucide-react": "^0.476.0",
     "next": "15.1.7",
     "nodemailer": "^6.10.0",

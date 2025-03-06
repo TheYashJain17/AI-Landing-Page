@@ -48,7 +48,7 @@ export interface PricingDetails{
 
   name: string,
   price: number,
-  benefits: String[],
+  benefits: string[],
 
 }
 

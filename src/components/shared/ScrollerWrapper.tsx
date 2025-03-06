@@ -16,7 +16,7 @@ useEffect(() => {
 
     });
 
-    const raf = (time: any) => {
+    const raf = (time: DOMHighResTimeStamp) => {
 
         lenis.raf(time);
 

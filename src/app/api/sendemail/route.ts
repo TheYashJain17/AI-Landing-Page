@@ -1,14 +1,14 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest} from "next/server";
 
 import nodemailer from "nodemailer";
 
-export const POST = async(req: NextRequest, res: NextResponse) => {
+export const POST = async(req: NextRequest) => {
 
     try {
         
         if(req.method === "POST"){
             
-            const {userEmail} = await req?.json();
+            const {userEmail} = await req!.json();
             
             console.log("The user mail i am getting from the user is", userEmail)
 
@@ -31,7 +31,7 @@ export const POST = async(req: NextRequest, res: NextResponse) => {
 
                 from: "yashjain07.yj@gmail.com",
                 to: userEmail,
-                subject: "Project1",
+                subject: "Waitlist Status",
                 text: "You Have Been Added To Waitlist Successfully",
 
             }

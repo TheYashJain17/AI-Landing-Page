@@ -97,7 +97,7 @@ const PriceModal: React.FC<PriceDetailsProps> = ({ PricingDetails, index }): Rea
 
                     {
 
-                        PricingDetails?.benefits?.map((benefit: String, index: number) => (
+                        PricingDetails?.benefits?.map((benefit: string, index: number) => (
 
                             <div key={index} className='flex justify-start flex-row gap-2'>
 

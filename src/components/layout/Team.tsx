@@ -62,7 +62,7 @@ const Team = (): React.JSX.Element => {
 
       <div className='flex items-center justify-center px-2'>
 
-          <span className='text-white text-sm md:text-xl'>Trusted By The World's Most Innovative Teams</span>
+          <span className='text-white text-sm md:text-xl'>Trusted By The World&apos;s Most Innovative Teams</span>
 
       </div>
 

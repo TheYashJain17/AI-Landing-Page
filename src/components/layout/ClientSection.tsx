@@ -46,7 +46,7 @@ const ClientSection = (): React.JSX.Element => {
 
                         <div className='w-[320px] md:w-[350px]'>
 
-                            <span className='text-center md:text-left text-base sm:text-xl md:text-2xl text-wrap'>"This product has completely transformed how I manage my projects and deadlines"</span>
+                            <span className='text-center md:text-left text-base sm:text-xl md:text-2xl text-wrap'>&quot;This product has completely transformed how I manage my projects and deadlines&quot;</span>
 
                             <div className='flex justify-start flex-col mt-3 md:mt-5 gap-2'>
 
@@ -88,7 +88,7 @@ const ClientSection = (): React.JSX.Element => {
                 <div className='flex items-center justify-center text-white flex-col w-full'>
 
 
-                            <span className='text-center md:text-left text-xl md:text-2xl text-wrap w-2/3'>"This product has completely transformed how I manage my projects and deadlines"</span>
+                            <span className='text-center md:text-left text-xl md:text-2xl text-wrap w-2/3'>&quot;This product has completely transformed how I manage my projects and deadlines&quot;</span>
 
                             <div className='flex justify-center flex-col mt-3 md:mt-5 gap-2'>
 

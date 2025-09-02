@@ -32,7 +32,7 @@ export const POST = async(req: NextRequest) => {
                 from: "yashjain07.yj@gmail.com",
                 to: userEmail,
                 subject: "Waitlist Status",
-                text: "You Have Been Added To Waitlist Successfully",
+                text: "You Have Been Added To The Waitlist Successfully",
 
             }
 
